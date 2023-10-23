@@ -8,11 +8,12 @@
 .container-header{
     max-width: 2000px;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: rgba(37,94,233,255);
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
    
     
 }
@@ -21,14 +22,13 @@
     width: calc(100% - 500px);
     height: 32px;
     justify-content: space-between;
-    background-color: rgb(78, 219, 39);
+    background-color: rgba(37,94,233,255);
        
 }
 
 .col-logo1{
     display: flex;
     padding-left: 5px;
-    border: 2px dashed black;
     width: 25%;
     height: 100%;
     align-items: center; 
@@ -39,22 +39,24 @@
     display: flex;
     padding-right: 5px;
     padding-left: 5px;
-    border: 2px dashed black;
     width: 25%;
     height: 100%;
     align-items: center; 
-    justify-content: end;
-    
+    justify-content: end; 
+}
+.button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 18px;
+    padding: 5px 10px;
+
 }
 .col-link{
     display: flex;
-    border: 2px dashed black;
     width: 50%;
     height: 100%;
     align-items: center; 
     justify-content: center;
-
-    
     
 }
 
@@ -62,11 +64,15 @@ ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none; 
-    
+ 
 }
 
 li{
     margin: 0 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 .container-main1, .container-main5{
     max-width: 2000px;
