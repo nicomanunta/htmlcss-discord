@@ -134,11 +134,10 @@ h1{
 /* Main 2 */
 .container-main2-4, .container-main3{
     max-width: 2000px;
-    height: 450px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
+    padding: 40px 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .container-main2-4{
@@ -149,19 +148,19 @@ h1{
 .row2-4, .row3{
     display: flex;
     width: calc(100% - 500px);
-    background-color: rgb(219, 39, 159);
+    
     
 }
 
 .column-grande{
     width: 70%;
-    background-color: white;
+    
     
     
 }
 .column-piccola{
     width: 30%;
-    background-color: white;
+    
     padding-top: 20px;
     color: rgba(41,40,65,255);
     
@@ -178,14 +177,17 @@ h2{
     width: 80%;
     
 }
-
 .container-main3{
+    background-color: rgb(232, 229, 229);
     
-    background-color: lightgrey;
-    
+
 }
 .row3{
     flex-direction: row-reverse;
+}
+.immagine2{
+    width: 90%;
+    padding-left: 50px;
 }
 .container-main5{
     height: 700px;
