@@ -91,7 +91,8 @@
     
 }
 .row1{
-    width: calc(80% - 500px);
+    max-width: 800px;
+    width: 100%;
     background-color: transparent;
     text-align: center;
     color: white;
@@ -146,7 +147,8 @@ h1{
 
 .row2-4, .row3{
     display: flex;
-    width: calc(100% - 500px);
+    max-width: 900px;
+    width: 100%;
     
     
 }
@@ -159,7 +161,6 @@ h1{
 }
 .column-piccola{
     width: 30%;
-    
     padding-top: 20px;
     color: rgba(41,40,65,255);
     
@@ -273,7 +274,8 @@ h4{
 }
 .row6, .row7{
     display: flex;
-    width: calc(100% - 500px);
+    width: 100%;
+    max-width: 900px;
    
 }
 .column1{
